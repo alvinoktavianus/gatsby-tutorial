@@ -1,4 +1,11 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Test = styled.div`
+  background-color: green;
+  height: 300px;
+  width: 300px;
+`
 
 // markup
 const IndexPage = () => {
@@ -16,6 +23,9 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
+      <Test>
+        <h1>Hello world</h1>
+      </Test>
     </>
   )
 }
