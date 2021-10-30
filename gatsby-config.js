@@ -4,7 +4,6 @@ module.exports = {
     title: 'gatsby-tutorial',
   },
   plugins: [
-    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     {
