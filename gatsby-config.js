@@ -11,7 +11,6 @@ module.exports = {
         disableVendorPrefixes: process.env.NODE_ENV === 'production',
       },
     },
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
