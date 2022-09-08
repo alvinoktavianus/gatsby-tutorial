@@ -1,5 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from '@emotion/styled'
+import TextField from '@mui/material/TextField'
 
 const Test = styled.div`
   background-color: green;
@@ -26,6 +27,7 @@ const IndexPage = () => {
       <Test>
         <h1>Hello world</h1>
       </Test>
+      <TextField id='filled-basic' label='Filled' variant='filled' />
     </>
   )
 }

@@ -16,36 +16,36 @@
     "info": "gatsby info"
   },
   "dependencies": {
-    "axios": "^0.24.0",
-    "bootstrap": "^5.1.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/material": "^5.10.4",
+    "axios": "^0.27.2",
     "formik": "^2.2.9",
-    "gatsby": "^4.4.0",
-    "gatsby-plugin-manifest": "^4.4.0",
-    "gatsby-plugin-react-helmet": "^5.4.0",
-    "gatsby-plugin-sitemap": "^5.4.0",
-    "gatsby-plugin-styled-components": "^5.4.0",
-    "luxon": "^2.2.0",
-    "nanoid": "^3.1.30",
-    "react": "^17.0.2",
-    "react-bootstrap": "^2.0.4",
-    "react-dom": "^17.0.2",
+    "gatsby": "^4.22.0",
+    "gatsby-plugin-manifest": "^4.22.0",
+    "gatsby-plugin-material-ui": "next",
+    "gatsby-plugin-react-helmet": "^5.22.0",
+    "gatsby-plugin-sitemap": "^5.22.0",
+    "luxon": "^3.0.3",
+    "nanoid": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "yup": "^0.32.11"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.0.2",
-    "babel-preset-gatsby": "^2.4.0",
-    "eslint": "^8.5.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
-    "prettier": "^2.5.1",
-    "styled-components": "^5.3.3",
-    "stylelint": "^14.2.0",
-    "stylelint-config-recommended": "^6.0.0",
+    "babel-preset-gatsby": "^2.22.0",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.7",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-recommended": "^9.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
-    "yarn": "^1.22.17"
+    "yarn": "^1.22.19"
   },
   "repository": {
     "type": "git",
@@ -55,5 +55,5 @@
     "url": "https://github.com/alvinoktavianus/gatsby-tutorial/issues"
   },
   "homepage": "https://github.com/alvinoktavianus/gatsby-tutorial#readme",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.3"
 }

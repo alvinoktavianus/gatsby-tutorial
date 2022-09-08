@@ -4,14 +4,8 @@ module.exports = {
     title: 'gatsby-tutorial',
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        displayName: process.env.NODE_ENV !== 'production',
-        disableVendorPrefixes: process.env.NODE_ENV === 'production',
-      },
-    },
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-material-ui',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
